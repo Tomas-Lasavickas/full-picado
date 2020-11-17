@@ -1,58 +1,42 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-.container {
-    display: flex;
+nav {
     width: 100%;
-    justify-content: space-evenly;
+    height: 100px;
+    background-color: #a577d4;
+    display: flex;
     align-items: center;
-    height: 60px;
-    background-color: red;
+    justify-content: space-evenly;
 }
 
-.btn {
-    padding: 10px;
-    background-color: white;
-    border: none;
-    font-size: 25px;
+.navbar-logo {
+    height: auto;
+    width: 250px;
 }
-.contenedor-iconos {
-    background-color: blue;
-    display: flex;
-    width: 200px;
-    height: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.bloque-1 {
-    height: 100%;
-    width: 60px;
-    background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.bloque-2 {
-    height: 100%;
-    width: 60px;
-    background-color: green;
-}
-.bloque-3 {
-    height: 100%;
-    width: 60px;
-    background-color: green;
-}
-.circulo {
-    width: 30px;
-    height: 50%;
-    background-color: yellow;
+
+a img {
+    height: 40px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5px;
+    
+}
+
+button {
+    width: 40%;
+    height: 30px;
+
+}
+
+button.hover {
+    color: grey;
+    transform: matrix();
+}
+
+.login {
+    height: 40px;
+    border-radius: 50%;
+    align-items: right;
 }
